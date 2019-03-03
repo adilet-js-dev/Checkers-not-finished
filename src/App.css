@@ -1,0 +1,80 @@
+input {
+    width: 100%;
+    padding: 10px 0;
+    background: white;
+}
+.login-form {
+    max-width: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px 10px;
+    box-shadow: 0 0 4px 2px #00000014;
+}
+.cell.black {
+    background: #dab065;
+    background-size: cover;
+    cursor: pointer;
+}
+.cell.chosenBlack {
+    background: #dab065;
+    background-size: cover;
+    cursor: pointer;
+    opacity: .5;
+}
+.cell.blackPlayer {
+    background: url('black.png');
+    background-size: cover;
+}
+.cell.chosenBlackPlayer {
+    background: url('black.png');
+    background-size: cover;
+    opacity: .8;
+}
+.cell.whitePlayer {
+    background: url('white.png');
+    background-size: cover;
+}
+.cell.border {
+    background: black;
+    background-size: cover;
+}
+.cell.white {
+    background: white;
+    background-size: cover;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row {
+    display: flex;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cell.point {
+    background: url('finish.png');
+    background-size: cover;
+}
+.cell.box.point {
+    background: url('box.png');
+    background-size: cover;
+    opacity: .3;
+}
+.cell.player.point {
+    background: url('player.png');
+    background-size: cover;
+}
+
+
+
